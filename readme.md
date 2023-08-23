@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "k6-linting-rules/rule-name": 2
+        "k6-linting-rules/k6": 2
     }
 }
 ```
