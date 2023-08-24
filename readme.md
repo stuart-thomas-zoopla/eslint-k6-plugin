@@ -54,7 +54,7 @@ As of version 0.0.1 this package adds the following rules:
 ```
 ## Version History
 
-### 0.0.2
+### 0.0.3
 No functional changes. Updates relate to automated workflows etc.
 
 ### 0.0.1
