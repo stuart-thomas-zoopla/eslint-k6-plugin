@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-k6-linting-rules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Linting rule set to support linting of k6 tests.",
   "keywords": [
     "eslint",
@@ -12,6 +12,7 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
+    "pub": "npm version patch --force && npm publish",
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
