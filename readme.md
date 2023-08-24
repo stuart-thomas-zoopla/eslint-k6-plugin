@@ -1,6 +1,8 @@
 # eslint-plugin-k6-linting-rules
 
-Linting rule set to support linting of k6 tests
+Linting rule set to support linting of k6 tests.
+[View the project on npm](https://www.npmjs.com/package/eslint-plugin-k6-linting-rules)
+[View the project on GitHub](https://github.com/stuart-thomas-zoopla/eslint-k6-plugin)
 
 ## Installation
 
@@ -28,7 +30,6 @@ Add `k6-linting-rules` to the plugins section of your `.eslintrc` configuration 
 }
 ```
 
-
 Then configure the rules you want to use under the rules section.
 
 ```json
@@ -41,8 +42,13 @@ Then configure the rules you want to use under the rules section.
 
 ## Rules
 
-<!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
-<!-- end auto-generated rules list -->
+As of version 0.0.1 this package adds the following rules:
 
-
+```
+    'import/no-unresolved': 0,
+    'no-restricted-globals': 0,
+    'import/extensions': 0,
+    'no-prototype-builtins': 0,
+    'semi': 1,
+    'quotes': 2
+```
