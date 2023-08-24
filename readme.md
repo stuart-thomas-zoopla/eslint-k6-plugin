@@ -52,3 +52,10 @@ As of version 0.0.1 this package adds the following rules:
     'semi': 1,
     'quotes': 2
 ```
+## Version History
+
+### 0.0.2
+No functional changes. Updates relate to automated workflows etc.
+
+### 0.0.1
+First release. Adds rules to eslint for support of linting k6 tests.
